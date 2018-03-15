@@ -1,0 +1,48 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    /*background: no-repeat center;*/
+    background-size: cover;
+}
+
+#landing-home {
+    /*linear-gradient( rgba(0, 0, 0, 0.75),*/
+    /*rgba(0, 0, 0, 0.75)),*/
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: url("inspiration.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#landing-quote {
+    background: linear-gradient( rgba(0, 0, 0, 0.50),
+    rgba(0, 0, 0, 0.75));
+    display: table;
+    width: 100%;
+    height: 100%;
+
+}
+
+.text-vertical-center {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: 'Lobster', cursive;
+}
+
+input{
+    font-size: 30px;
+    
+}
+
+#submit{
+    font-size: 20px;
+    border-radius: 9px;
+    color:#005266;
+    background-color: white;
+    
+}
